@@ -1,9 +1,10 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import css from './Navigation.module.css';
 import clsx from 'clsx';
+import { GiFruitBowl } from 'react-icons/gi';
 
 const buildLinkClass = ({ isActive }) => {
-  return clsx(css.link, isActive && css.isActive);
+  return clsx(css.link, isActive && css.active);
 };
 
 const Navigation = () => {
@@ -23,9 +24,14 @@ const Navigation = () => {
         <NavLink to="/catalog" className={buildLinkClass}>
           Catalog
         </NavLink>
-        <NavLink to="/contact" className={buildLinkClass}>
+        <NavLink to="/contact" className={buildLinkClass} end>
           Contact Us
         </NavLink>
+
+        <Link to="/">
+          <GiFruitBowl />
+          fresh harvest box
+        </Link>
       </nav>
     </header>
   );
