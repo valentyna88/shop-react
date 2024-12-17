@@ -8,6 +8,7 @@ import CatalogPage from './pages/CatalogPage/CatalogPage';
 import ProductDetailsPage from './pages/ProductDetailsPage/ProductDetailsPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import Footer from './components/Footer/Footer';
+// import css from '';
 
 const App = () => {
   return (
@@ -16,8 +17,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/products" element={<CatalogPage />} />
-        <Route path="/products/:productId" element={<ProductDetailsPage />} />
+        <Route path="/catalog" element={<CatalogPage />} />
+        <Route path="/catalog/:productId" element={<ProductDetailsPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

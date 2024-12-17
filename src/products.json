@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Apples",
+    "description": "Fresh organic apples",
+    "price": 10
+  },
+  {
+    "id": 2,
+    "name": "Fresh Blueberries",
+    "description": "Juicy blueberries",
+    "price": 15
+  },
+  {
+    "id": 3,
+    "name": "Organic Strawberries",
+    "description": "Sweet and fresh strawberries",
+    "price": 12
+  },
+  {
+    "id": 4,
+    "name": "Organic Bananas",
+    "description": "Ripe and sweet bananas",
+    "price": 8
+  },
+  {
+    "id": 5,
+    "name": "Fresh Blackberries",
+    "description": "Tangy blackberries",
+    "price": 14
+  },
+  {
+    "id": 6,
+    "name": "Organic Cherries",
+    "description": "Fresh and delicious cherries",
+    "price": 18
+  },
+  {
+    "id": 7,
+    "name": "Organic Peaches",
+    "description": "Juicy and ripe peaches",
+    "price": 10
+  },
+  {
+    "id": 8,
+    "name": "Organic Grapes",
+    "description": "Sweet seedless grapes",
+    "price": 11
+  },
+  {
+    "id": 9,
+    "name": "Organic Pears",
+    "description": "Crunchy and sweet pears",
+    "price": 9
+  },
+  {
+    "id": 10,
+    "name": "Organic Plums",
+    "description": "Tangy and juicy plums",
+    "price": 12
+  }
+]
