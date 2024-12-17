@@ -28,9 +28,9 @@ const Navigation = () => {
           Contact Us
         </NavLink>
 
-        <Link to="/">
-          <GiFruitBowl />
-          fresh harvest box
+        <Link to="/" className={css.logo}>
+          <GiFruitBowl className={css.icon} />
+          <span className={css.logoText}>fresh harvest box</span>
         </Link>
       </nav>
     </header>
