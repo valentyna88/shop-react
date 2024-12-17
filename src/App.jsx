@@ -8,11 +8,11 @@ import CatalogPage from './pages/CatalogPage/CatalogPage';
 import ProductDetailsPage from './pages/ProductDetailsPage/ProductDetailsPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import Footer from './components/Footer/Footer';
-// import css from '';
+import Layout from './components/Layout/Layout';
 
 const App = () => {
   return (
-    <div>
+    <Layout>
       <Navigation />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -23,7 +23,7 @@ const App = () => {
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
-    </div>
+    </Layout>
   );
 };
 
