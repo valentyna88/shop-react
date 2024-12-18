@@ -21,18 +21,20 @@
   text-align: center;
   color: #ae1332;
   border-radius: 10px;
+  border: 1px solid transparent;
   transition: color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .link:hover {
-  color: #fff;
-  background-color: #b71e3f;
+  /* color: #fff; */
+  border-color: #ae1332;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .active {
-  color: #fff;
-  background-color: #ae1332;
+  /* color: #fff; */
+  border-color: #ae1332;
+  background-color: #fdd3e5;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 
