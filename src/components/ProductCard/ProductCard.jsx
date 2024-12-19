@@ -1,9 +1,12 @@
 const ProductCard = ({ product }) => {
+  const { title, description, price, thumbnail } = product;
+
   return (
     <div>
-      <h1>{product.name}</h1>
-      <p>{product.description}</p>
-      <p>Price: ${product.price}</p>
+      <h1>{title}</h1>
+      <img src={thumbnail} alt={title} />
+      <p>{description}</p>
+      <p>{price} $</p>
     </div>
   );
 };
