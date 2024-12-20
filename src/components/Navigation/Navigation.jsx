@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import css from './Navigation.module.css';
 import clsx from 'clsx';
 import { GiFruitBowl } from 'react-icons/gi';
+import Cart from '../Cart/Cart';
 
 const buildLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
@@ -11,7 +12,7 @@ const Navigation = () => {
   return (
     <header className={css.header}>
       <nav className={css.nav}>
-        <NavLink to="/" className={buildLinkClass}>
+        <NavLink to="/" className={buildLinkClass} aria-label="Go to Home page">
           Home
         </NavLink>
         <NavLink
@@ -33,6 +34,7 @@ const Navigation = () => {
           <span className={css.logoText}>fresh harvest box</span>
         </Link>
       </nav>
+      <Cart />
     </header>
   );
 };

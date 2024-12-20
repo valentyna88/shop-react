@@ -2,6 +2,7 @@ const AboutPage = () => {
   return (
     <main>
       <section>
+        <h1>About Fresh Harvest Box</h1>
         <p>
           Fresh Harvest Box — це ваш надійний постачальник органічних продуктів
           і ягід прямо з фермерських господарств.
